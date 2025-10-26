@@ -1,16 +1,98 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 💱 Currency Converter — React Mini Project
 
-Currently, two official plugins are available:
+This is a beginner-friendly React project that converts currency values using real-time exchange rates from a public API.  
+It helped me explore essential React concepts like components, props, state management, and custom hooks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Convert from one currency to another in real-time  
+✅ Swap currency pairs instantly  
+✅ Custom `useCurrencyInfo` hook for API handling  
+✅ Clean modular structure using reusable components  
+✅ Responsive UI with Tailwind CSS styling  
+✅ Blur background effect on layout
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React (Vite)**
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+- **Currency Exchange API**  
+  Source: `@fawazahmed0/currency-api`
+
+---
+
+## 📌 What I Learned
+
+📍 Creating & reusing components (`InputBox`)  
+📍 Managing state with `useState`  
+📍 Fetching and updating data using `useEffect`  
+📍 Building a **custom hook** (`useCurrencyInfo`)  
+📍 Handling user input, disabling fields & controlled components  
+📍 Styling using Tailwind utility classes  
+
+This project improved my understanding of React component structure and how to separate UI and logic for better maintainability.
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│
+├── components/
+│   └── InputBox.jsx
+│
+├── hooks/
+│   └── useCurrencyInfo.js
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🧪 How to Run Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/<your-username>/<repo-name>.git
+
+# Move into project folder
+cd <repo-name>
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+---
+
+## 🔗 API Used
+
+- Currency rates updated daily via CDN  
+  `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api`
+
+---
+
+## ✅ Demo Preview
+
+👉 *(Add screenshot or hosted link here if available)*
+
+---
+
+## 🙌 Acknowledgements
+
+A small but impactful step in my React learning journey.  
+More improvements coming soon — like search, recent conversions, dark mode and more!
+
+---
+
+### ⭐ If you like this project, please give the repo a star on GitHub!
