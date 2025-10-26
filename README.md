@@ -82,16 +82,10 @@ npm run dev
 
 ---
 
-## ✅ Demo Preview
-
-👉 *(Add screenshot or hosted link here if available)*
-
----
 
 ## 🙌 Acknowledgements
 
 A small but impactful step in my React learning journey.  
-More improvements coming soon — like search, recent conversions, dark mode and more!
 
 ---
 
